@@ -1,0 +1,60 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	padding: 20px;
+}
+
+.form-container {
+	margin-bottom: 20px;
+}
+
+.form-container input,
+.form-container textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+.form-container button {
+	padding: 10px 20px;
+}
+
+.card {
+	border: 1px solid #000000;
+	border-radius: 5px;
+	padding: 15px;
+	margin: 10px 0;
+	background: #000000;
+}
+
+.card .author {
+	font-style: italic;
+	color: #000000;
+} 
+
+body { 
+    background-color: palevioletred; 
+    text-decoration: none;
+} 
+
+h1 { 
+    text-decoration: none;
+} 
+
+
+section button { 
+    width: 80px; 
+    background-color: black; 
+    color:  goldenrod; 
+}
+
+
+section { 
+    display: grid; 
+    grid-auto-flow: row; 
+    grid-template-columns: repeat(2,auto);
+}
